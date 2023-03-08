@@ -92,8 +92,8 @@ padding: 10px 20px;
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #264A5D;
+    color: rgb(226, 226, 207);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -130,4 +130,4 @@ padding: 10px 20px;
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #1b3442;}
