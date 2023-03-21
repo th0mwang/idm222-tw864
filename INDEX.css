@@ -17,6 +17,7 @@ font-family: 'inter';
 font-size: 9vw;
 font-weight: bold;
 margin-bottom: 0%;
+margin-top: 5%;
 }
 #works{
 border: rgb(226, 226, 207); 
@@ -79,11 +80,12 @@ padding: 10px 20px;
     border: none;
     border-radius: 4px;
     color: rgb(226, 226, 207);
-    padding: 16px;
+    padding: 0px;
     font-family: 'inter';
-    font-size: 16px;
+    font-size: 2vw;
     font-weight: 600;
-    width: 100px;
+    height: 6vw;
+    width: 10vw;
     max-width: 100%;
     
    
