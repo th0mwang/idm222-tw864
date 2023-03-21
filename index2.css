@@ -16,6 +16,7 @@ color:rgb(226, 226, 207);
 font-family: 'inter';
 font-size: 9vw;
 font-weight: bold;
+text-align: center;
 }
 #works{
 border: rgb(226, 226, 207); 
@@ -24,24 +25,13 @@ align-items: center;
 
 img {
 align-content: center;
-border:3px;
-border-color: rgb(226, 226, 207);
-border-radius: 50%;
+border:rgb(226, 226, 207);
+border-width: thick;
 display: block;
-height: 50vw;
+height: 30vw;
 margin-left: auto;
 margin-right: auto;
 min-height: 50px;
-
-
-
-}
-
-
-.image{  
-
-flex-basis: 40%;
-float:left
 }
 .text{
 color:rgb(226, 226, 207);
@@ -135,3 +125,11 @@ padding: 10px 20px;
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #1b3442;}
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    justify-content: center;
+  }
