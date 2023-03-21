@@ -2,6 +2,11 @@
     font-family: inter;
     src:url(https://fonts.googleapis.com/css?family=Inter);
 }
+.flex-container{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
 html,body{
 background-color: rgb(52, 101, 127);
 color:rgb(226, 226, 207);
@@ -14,38 +19,28 @@ overflow-x: hidden;
 h1{
 color:rgb(226, 226, 207);
 font-family: 'inter';
-font-size: 9vw;
+font-size: 13vw;
 font-weight: bold;
 margin-bottom: 0%;
 margin-top: 5%;
 }
-#works{
-border: rgb(226, 226, 207); 
-align-items: center;  
-}
 
-img {
-align-content: left;
-border-radius: 50%;
-display: block;
-height: 55vw;
-}
 
-.text{
-color:rgb(226, 226, 207);
-font-family: 'inter';
-font-size: 475%;
-font-weight: bold;
-padding-left: 50px;  
-;
-}
+
 h2{
 color:rgb(226, 226, 207);
 font-family: "inter";
-font-size: 9vw;
+font-size: 7.6vw;
 font-weight: bold;
 margin-left: 0%;
 }
+
+img {
+  align-content: left;
+  border-radius: 50%;
+  display: block;
+  height: 45vw;
+  }
 
 p{
 color:rgb(226, 226, 207);
@@ -54,24 +49,6 @@ font-size: 2vw;
 font-weight: 600;
 padding-left: 3%; /*line it up*/
 padding-right: 3%;
-}
-
-h3{
-align-self: center;
-color:rgb(226, 226, 207);
-font-family: 'inter';
-font-size: 10vw;
-font-weight: bold;
-margin: 43px;   
-}
-
-
-.Home {
-background-color : rgb(78, 118, 81);
-border-color: rgb(226, 226, 207);
-border-radius: 4px;
-color: rgb(226, 226, 207);
-padding: 10px 20px;
 }
 
 /* Dropdown Button */
@@ -124,8 +101,3 @@ padding: 10px 20px;
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #1b3442;}
 
-.flex-container{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
