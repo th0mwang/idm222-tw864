@@ -130,6 +130,5 @@ padding: 10px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 50%;
     justify-content: center;
   }
