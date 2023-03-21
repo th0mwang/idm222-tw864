@@ -28,10 +28,11 @@ align-content: center;
 border:rgb(226, 226, 207);
 border-width: thick;
 display: block;
-height: 30vw;
+height: 34vw;
 margin-left: auto;
 margin-right: auto;
 min-height: 50px;
+width: auto;
 }
 .text{
 color:rgb(226, 226, 207);
@@ -131,4 +132,19 @@ padding: 10px 20px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .flex-box{
+    display: inline-grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: flex-start;
+    width: auto;  
+  }
+  .flex{
+    display: inline-grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    width: auto;
   }
